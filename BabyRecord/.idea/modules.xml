@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BabyRecord.iml" filepath="$PROJECT_DIR$/BabyRecord.iml" group="BabyRecord" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BabyRecord/app" />
+      <module fileurl="file://$PROJECT_DIR$/core-net/core-net.iml" filepath="$PROJECT_DIR$/core-net/core-net.iml" group="BabyRecord/core-net" />
+      <module fileurl="file://$PROJECT_DIR$/core_base/core_base.iml" filepath="$PROJECT_DIR$/core_base/core_base.iml" group="BabyRecord/core_base" />
+      <module fileurl="file://$PROJECT_DIR$/fun-home/fun-home.iml" filepath="$PROJECT_DIR$/fun-home/fun-home.iml" group="BabyRecord/fun-home" />
+      <module fileurl="file://$PROJECT_DIR$/fun-info/fun-info.iml" filepath="$PROJECT_DIR$/fun-info/fun-info.iml" group="BabyRecord/fun-info" />
+      <module fileurl="file://$PROJECT_DIR$/multipleimageselect/multipleimageselect.iml" filepath="$PROJECT_DIR$/multipleimageselect/multipleimageselect.iml" group="BabyRecord/multipleimageselect" />
+      <module fileurl="file://$PROJECT_DIR$/takephoto_library/takephoto_library.iml" filepath="$PROJECT_DIR$/takephoto_library/takephoto_library.iml" group="BabyRecord/takephoto_library" />
+    </modules>
+  </component>
+</project>

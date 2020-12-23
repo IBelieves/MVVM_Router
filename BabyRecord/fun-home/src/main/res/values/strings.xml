@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RunModule</string>
+    <string name="long_name">long_click</string>
+    <string name="long_name2">2long_click</string>
+    <string name="label">label</string>
+    <string name="label2">label2</string>
+</resources>

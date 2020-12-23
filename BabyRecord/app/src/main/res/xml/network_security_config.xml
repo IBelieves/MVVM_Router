@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools"
+    >
+    <!--   兼容android p 版本 （高版本手机对于网络有限制） -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

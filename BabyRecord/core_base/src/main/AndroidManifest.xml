@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.hualand.core_base" >
+    <application>
+        <activity
+            android:name="cn.hualand.photo.PicSelectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+    </application>
+</manifest>
