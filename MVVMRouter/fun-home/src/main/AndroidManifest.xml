@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.hualand.fun_home">
+
+    <application>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask">
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity2" />
+        <activity
+            android:name=".activity.NewRecordActivity"
+            android:launchMode="singleTask" />
+    </application>
+
+</manifest>

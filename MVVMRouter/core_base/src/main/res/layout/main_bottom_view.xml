@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_parent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_66"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+
+    <RelativeLayout
+        android:id="@+id/ry_home"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_2"
+            android:src="@drawable/home_selector" />
+
+        <TextView
+            android:id="@+id/tv_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_home"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="@color/gray_33"
+            android:textSize="@dimen/sp_11" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ry_record"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/btn_car"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_2"
+            android:src="@drawable/home_selector" />
+
+        <TextView
+            android:id="@+id/tv_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_car"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/record"
+            android:textColor="@color/gray_33"
+            android:textSize="@dimen/sp_11" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ry_me"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/btn_me"
+            android:layout_width="@dimen/dp_26"
+            android:layout_height="@dimen/dp_26"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_2"
+            android:src="@drawable/home_selector" />
+
+        <TextView
+            android:id="@+id/tv_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_me"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/me"
+            android:textColor="@color/gray_33"
+            android:textSize="@dimen/sp_11" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="home"
+            type="cn.hualand.ui.main.viewmodel.RecordModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.hualand.view.EasyTitleView
+            android:id="@+id/tv_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:elevation="@dimen/dp_2"
+            app:title_name="@string/time_record"
+            app:is_show_back="false"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_bar" />
+    </RelativeLayout>
+
+
+</layout>

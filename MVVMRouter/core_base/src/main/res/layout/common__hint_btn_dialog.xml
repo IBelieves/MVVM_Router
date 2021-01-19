@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_rounded_rectangle_white_5"
+        android:minHeight="200dp">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="我是标题！！！"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dialog_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:lineSpacingExtra="@dimen/dp_10"
+            android:text="欢迎您使用象司机!我们非常重视用户隐私和个人信息的保护，通过《象司机隐私政策》和《用户服务协议》帮助您了解我们收集、使用、存储和共享个人信息的情况，以及您所享有的相关权利。如您同意，请点击“同意”开始接受我们的服务。您可以通过阅读《象司机隐私政策》和《用户服务协议》了解详细信息。"
+            android:textColor="@color/gray_33"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_1"
+            android:layout_below="@id/dialog_hint"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_40"
+            android:layout_below="@id/dialog_hint"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_toLeftOf="@id/view"
+            android:background="@drawable/gray_line__shape_20"
+            android:gravity="center"
+            android:text="暂不使用"
+            android:textColor="@color/gray_99"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/btn_comfirm"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_40"
+            android:layout_below="@id/dialog_hint"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_toRightOf="@id/view"
+            android:background="@drawable/blue_gradient_20"
+            android:gravity="center"
+            android:text="同 意"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MVVM路由</string>
+    <string name="long_name">long_click</string>
+    <string name="long_name2">2long_click</string>
+    <string name="label">label</string>
+    <string name="label2">label2</string>
+    <string name="record_time">记录</string>
+    <string name="photos">图库</string>
+    <string name="memo">备忘</string>
+    <string name="menu">菜谱</string>
+    <string name="happy_record">美好记录</string>
+    <string name="input_record_msg">说你想说的吧～</string>
+    <string name="drag_delete">拖动到此处删除</string>
+</resources>

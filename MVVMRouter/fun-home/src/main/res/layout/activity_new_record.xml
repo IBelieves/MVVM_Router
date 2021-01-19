@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.NewRecordActivity">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.hualand.view.EasyTitleView
+            android:id="@+id/tv_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:is_show_back="true"
+            app:title_name="@string/record_time" />
+
+        <EditText
+            android:id="@+id/ev_msg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_160"
+            android:layout_below="@id/tv_bar"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/shape_rounded_rectangle_white_5"
+            android:elevation="@dimen/dp_5"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:hint="@string/input_record_msg"
+            android:maxLength="160"
+            android:padding="@dimen/dp_3"
+            android:textColor="@color/gray_33"
+            android:textColorHint="@color/gray_99"
+            android:textSize="@dimen/sp_16" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/xry_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ev_msg"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+
+            />
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/top_red_shape_5"
+            android:gravity="center"
+            android:text="@string/drag_delete"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</layout>

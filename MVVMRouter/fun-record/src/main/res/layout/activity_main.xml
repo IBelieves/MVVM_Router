@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="main"
+            type="cn.hualand.ui.main.viewmodel.MainViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_page2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_60_5"
+            android:orientation="horizontal" />
+
+
+        <cn.view.MainBottomView
+            android:id="@+id/main_tab"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+
+            android:layout_above="@id/main_tab"
+            android:background="@color/gray_33" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</layout>

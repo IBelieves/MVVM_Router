@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/long_name"
+        android:shortcutId="background_settings"
+        android:shortcutLongLabel="@string/label2"
+        android:shortcutShortLabel="@string/label">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="cn.hualand.fun_home.activity.MainActivity2"
+            android:targetPackage="cn.hualand.es" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+
+</shortcuts>

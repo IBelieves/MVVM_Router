@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    android:elevation="@dimen/dp_1"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:layout_marginLeft="@dimen/dp_22"
+        android:layout_marginTop="@dimen/dp_19"
+        android:src="@drawable/my_icon_back"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_3"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_toRightOf="@id/left_image"
+        android:textColor="@color/gray_33"
+        android:textSize="@dimen/sp_15" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_18"
+        android:layout_marginRight="@dimen/dp_20"
+        android:textColor="@color/gray_33"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_right_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_18"
+        android:layout_marginRight="@dimen/dp_20"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/sp_16" />
+
+    <ImageView
+        android:id="@+id/right_image"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:padding="@dimen/dp_2"
+        android:layout_marginTop="@dimen/dp_17"
+        android:layout_toLeftOf="@id/tv_right_txt"
+
+        />
+
+</RelativeLayout>

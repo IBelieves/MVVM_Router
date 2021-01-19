@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVM路由</string>
+
+    <string name="time_record">时间轴</string>
+</resources>
